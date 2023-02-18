@@ -1,0 +1,47 @@
+/* Para visualizar las tablas es recomendable usar las siguientes propiedades de estilo: */
+
+Table,
+td,
+th {
+    border: black 1px solid;
+    font-size: 17px;
+}
+
+th {
+    background-color: rgb(223, 202, 170);
+}
+
+th,
+td {
+    text-align: center;
+    padding: 1px 5px 1px 5px;
+}
+
+.formacion {
+    background-color: rgb(136, 212, 212);
+    font-size: 10px;
+}
+
+.sprint {
+    background-color: red;
+    font-size: 17px;
+    font-style: oblique;
+}
+
+.almuerzo {
+    background-color: yellow;
+    color: rgb(133, 132, 91);
+    font-size: 15px;
+}
+
+.scrum {
+    background-color: pink;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+    background-color: rgb(164, 219, 53);
+    font-weight: normal;
+}

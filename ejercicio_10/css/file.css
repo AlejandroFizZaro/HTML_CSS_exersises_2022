@@ -1,0 +1,366 @@
+.image1:hover {
+    animation-name: transition_1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_1 {
+    from {
+        filter: hue-rotate(270deg) contrast(95%);
+    }
+
+    20% {
+        filter: hue-rotate(30deg) contrast(50%);
+    }
+
+    40% {
+        filter: hue-rotate(330deg);
+    }
+
+    60% {
+        filter: hue-rotate(170deg);
+    }
+
+    80% {
+        filter: hue-rotate(330deg);
+    }
+
+    100% {
+        filter: brightness(190%) hue-rotate(340deg) contrast(90%);
+    }
+
+}
+
+.image2:hover {
+    animation-name: transition_2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_2 {
+    from {}
+
+    to {
+        filter: brightness(8000%);
+    }
+
+}
+
+.image3:hover {
+    animation-name: transition_3;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_3 {
+    from {}
+
+    to {
+        filter: invert(100%);
+    }
+
+}
+
+.image4:hover {
+    animation-name: transition_4;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_4 {
+    from {}
+
+    to {
+        filter: opacity(0%);
+    }
+
+}
+
+.image5:hover {
+    animation-name: transition_5;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_5 {
+    from {}
+
+    to {
+        filter: hue-rotate(180deg);
+    }
+
+}
+
+
+.image6:hover {
+    animation-name: transition_6;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_6 {
+    from {}
+
+    to {
+        filter: hue-rotate(270deg);
+        transform: scaleX(-1);
+    }
+
+}
+
+.image7:hover {
+    animation-name: transition_7;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_7 {
+    from {}
+
+    10% {
+        filter: opacity(100%) invert(100%);
+    }
+
+    20% {
+        filter: opacity(0%);
+    }
+
+    30% {
+        filter: opacity(100%) invert(0%);
+    }
+
+    40% {
+        filter: opacity(0%);
+    }
+
+    50% {
+        filter: opacity(100%) invert(100%);
+    }
+
+    60% {
+        filter: opacity(0%);
+    }
+
+    70% {
+        filter: opacity(100%) invert(0%);
+    }
+
+    80% {
+        filter: opacity(0%);
+    }
+
+    90% {
+        filter: opacity(100%) invert(100%);
+    }
+
+    to {
+        filter: opacity(0%)
+    }
+
+}
+
+.image8:hover {
+    animation-name: transition_8;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_8 {
+    from {}
+
+    to {
+        filter: hue-rotate(270deg);
+        border-radius: 50%;
+    }
+
+}
+
+.image9:hover {
+    animation-name: transition_9;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_9 {
+    from {
+        transform: rotateZ(360deg) rotateY(360deg) rotateX(360deg);
+        filter: hue-rotate(150deg);
+    }
+
+    100% {
+        filter: hue-rotate(0deg) invert(85%);
+    }
+
+}
+
+.image10:hover {
+    animation-name: transition_10;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_10 {
+    from {}
+
+    10% {
+        filter: drop-shadow(0 0 8.75rem blue);
+    }
+
+    20% {
+        filter: drop-shadow(0 0 8.75rem red);
+    }
+
+    30% {
+        filter: drop-shadow(0 0 8.75rem blue);
+    }
+
+    40% {
+        filter: drop-shadow(0 0 8.75rem red);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 8.75rem blue);
+    }
+
+    60% {
+        filter: drop-shadow(0 0 8.75rem red);
+    }
+
+    70% {
+        filter: drop-shadow(0 0 8.75rem blue);
+    }
+
+    80% {
+        filter: drop-shadow(0 0 8.75rem red);
+    }
+
+    90% {
+        filter: drop-shadow(0 0 8.75rem blue);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 8.75rem red);
+    }
+
+}
+
+.image11:hover {
+    animation-name: transition_11;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_11 {
+    from {
+        transform: rotateZ(360deg);
+        filter: hue-rotate(150deg) blur(3px);
+    }
+
+    50% {
+        filter: hue-rotate(200deg) blur(2.5px)drop-shadow(0 0 0.2rem yellow);
+    }
+
+    60% {
+        filter: hue-rotate(225deg) blur(1.5px) drop-shadow(0 0 0.7rem yellow);
+    }
+
+    70% {
+        filter: hue-rotate(270deg) blur(1px) drop-shadow(0 0 1rem yellow);
+    }
+
+    80% {
+        filter: hue-rotate(300deg)drop-shadow(0 0 1.5rem yellow) blur(0.8px);
+    }
+
+    90% {
+        filter: hue-rotate(330deg) drop-shadow(0 0 2rem yellow) blur(0.5px);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 2.75rem yellow) blur(0px);
+    }
+
+}
+
+.image12:hover {
+    animation-name: transition_12;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes transition_12 {
+    0% {
+        filter: drop-shadow(30px 10px 4px #fdc612);
+    }
+
+    0%,
+    5% {
+        filter: drop-shadow(40px 90px 6px #da0e0e);
+    }
+
+    5%,
+    10% {
+        filter: drop-shadow(60px 60px 6px #b10eda);
+    }
+
+    10%,
+    15% {
+        filter: drop-shadow(-30px 150px 6px #080681);
+    }
+
+    15%,
+    20% {
+        filter: drop-shadow(40px 90px 6px #da0e0e);
+    }
+
+    20%,
+    25% {
+        filter: drop-shadow(-40px 30px 6px #da0e0e);
+    }
+
+    25%,
+    30% {
+        filter: drop-shadow(60px 60px 6px #b10eda);
+    }
+
+    30%,
+    35% {
+        filter: drop-shadow(-30px 150px 6px #080681);
+    }
+
+    35%,
+    40% {
+        filter: drop-shadow(80px 10px 6px #da0e0e);
+    }
+
+    40%,
+    45% {
+        filter: drop-shadow(-40px 100px 6px #da0e0e);
+    }
+
+    45%,
+    50% {
+        filter: drop-shadow(40px 90px 6px #da0e0e);
+    }
+
+    50%,
+    55% {
+        filter: drop-shadow(40px 90px 6px #0eda41);
+    }
+
+    55%,
+    60% {
+        filter: drop-shadow(40px 90px 6px #0e22da);
+    }
+
+    60%,
+    65% {
+        filter: drop-shadow(40px 90px 6px #000000);
+    }
+
+    65%,
+    70% {
+        filter: drop-shadow(40px 90px 6px #dac60e);
+    }
+
+}

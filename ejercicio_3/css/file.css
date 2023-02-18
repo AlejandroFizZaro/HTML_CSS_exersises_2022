@@ -1,0 +1,90 @@
+section {
+    text-align: center;
+    width: auto;
+    height: fit-content;
+    border: 1px solid white;
+    margin: auto;
+}
+
+/* id de body */
+#b_001 {
+    background-color: rgb(121, 96, 49);
+}
+
+/*id de h1*/
+#h1_001 {
+    color: rgb(19, 20, 20);
+    width: fit-content;
+
+}
+
+/* id del hiperlink */
+#a_001 {
+    background-color: orange;
+    border: 1px solid white;
+    text-align: left;
+}
+
+/* header con clases felucci > verde o prime >rojo */
+header[class="felucci"] {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 200px 10px 200px 10px;
+    background-image: url("../favicon/coocking.png");
+    background-size: cover;
+    background-size: cover;
+
+
+}
+
+header[class="prime"] {
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 20px 10px;
+}
+
+/* El hiperlink tiene color negro si está en <a> y el link empieza por https */
+a[href^="https"] {
+    color: black
+}
+
+/* Aplicando hermanos */
+li:first-of-type {
+    color: bisque;
+}
+
+li:first-of-type+li {
+    color: red;
+}
+
+li:first-of-type+li+li {
+    color: yellow;
+}
+
+li:last-of-type {
+    color: green;
+    background-color: red;
+    margin: auto;
+    width: 5cm;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header[class="felucci"]::before {
+    content: ">> ";
+    color: black;
+}
+
+footer {
+    padding: 5mm 10mm;
+}
+
+/* si coincide algún formato, se pueden juntar las etiquetas
+
+li:first-of-type+li, header[class=prime] {
+    color: red;
+} */

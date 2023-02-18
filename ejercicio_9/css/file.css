@@ -1,0 +1,47 @@
+.image1 {
+    filter: sepia(50%) contrast(50%);
+}
+
+.image2 {
+    filter: contrast(15%);
+}
+
+.image3 {
+    filter: invert(70%) contrast(35%)
+}
+
+.image4 {
+    filter: invert(80%) opacity(35%);
+}
+
+.image5 {
+    filter: hue-rotate(50deg);
+}
+
+.image6 {
+    filter: hue-rotate(175deg);
+}
+
+.image7 {
+    filter: opacity(70%);
+}
+
+.image8 {
+    filter: brightness(200%);
+}
+
+.image9 {
+    filter: hue-rotate(50deg) invert(85%);
+}
+
+.image10 {
+    filter: drop-shadow(0 0 2.75rem red);
+}
+
+.image11 {
+    filter: drop-shadow(0 0 2.75rem yellow) hue-rotate(90deg);
+}
+
+.image12 {
+    filter: drop-shadow(0 0 2.75rem aqua);
+}

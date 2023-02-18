@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi título</title>
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <!--     enlazando el css-->
+    <link rel="stylesheet" href="./css/file.css" />
+</head>
+
+<body>
+    <fieldset>
+        <legend>Escoja los ingredientes de la hamburguesa</legend>
+
+        <div>
+            <input type="checkbox" id="queso" name="queso">
+            <label for="queso">Queso</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="tomate" name="tomate">
+            <label for="tomate">tomate</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="cebolla" name="cebolla">
+            <label for="cebolla">cebolla</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <p>Escoje los colores de tu regalo del happy meal</p>
+
+        <div>
+            <input type="color" id="brazos" name="brazos" value="#139CBE">
+            <label for="brazos">brazos</label>
+        </div>
+
+        <div>
+            <input type="color" id="piernas" name="piernas" value="#E61919">
+            <label for="piernas">piernas</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div>
+            <label for="donacion">Decida la donacion que desea aportar a JuegaTerapia</label><br>
+            <input type="range" id="donacion" name="donacion" min="0" max="100" value="90" step="1">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>¿Acepta las politicas de privacidad de Mc Ronald?</legend>
+
+        <div>
+            <input type="radio" id="si" name="my_answer" value="si" checked>
+            <label for="si">Si, por supuesto</label>
+        </div>
+
+        <div>
+            <input type="radio" id="meh" name="my_answer" value="meh">
+            <label for="meh">Qué remedio, tendré que aceptar</label>
+        </div>
+
+        <div>
+            <input type="radio" id="no" name="my_answer" value="no">
+            <label for="no">¡Me niego en redondo! (pero acepta)</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <label for="idCard">Ponga aquí la fecha de vencimiento de la tarjeta de crédito</label><br>
+
+        <input type="month" id="idCard" name="idCard" min="2022-12" value="2022-12">
+    </fieldset>
+</body>
+
+</html>

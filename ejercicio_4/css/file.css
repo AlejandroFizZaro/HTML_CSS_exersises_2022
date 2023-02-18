@@ -1,0 +1,31 @@
+section {
+    border: 2px grey dotted;
+    width: 65%;
+    padding: 0px 10px 0px 10px;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+.divider {
+    border-top: 1px solid gray;
+    height: 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+ul>li::marker {
+    content: '☠️';
+    font-size: 1.4em;
+}
+
+ul>li:last-child::marker {
+    content: '✔️ ';
+    font-size: 1.3em;
+}
+
+ol>li:nth-child(even) {
+    background-color: rgb(163, 157, 157);
+    margin-right: 25px;
+}

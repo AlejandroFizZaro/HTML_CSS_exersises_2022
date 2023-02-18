@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(138, 138, 148);
+}
+
+iframe {
+    width: 70%;
+    height: 350px;
+    margin: 10px 0px 10px 0px;
+    background-color: aliceblue;
+}
